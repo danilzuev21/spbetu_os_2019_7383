@@ -132,7 +132,7 @@ writing:
 			ret
 FOUND_PC_TYPE ENDP
 ;-------------------------------
-FOUND_VERSION_OS PROC far
+FOUND_VERSION_OS PROC near
 			xor AX, AX
 			mov ah, 30h
 			int 21h
